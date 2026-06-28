@@ -1,0 +1,203 @@
+2026-06-28 15:00:49,704 - WARNING - There was an error managing chromedriver (error decoding response body for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2026-06-28 15:00:49,705 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2026-06-28 15:00:51,110 - INFO - Database connected!
+2026-06-28 15:00:51,111 - INFO - Scraping page 1...
+2026-06-28 15:00:51,541 - ERROR - Bot crashed: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=149.0.7827.156)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff62cf13fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff62cf14000+14980]
+	chromedriver!(No symbol) [0x7ff62ca5793d]
+	chromedriver!(No symbol) [0x7ff62ca544ce]
+	chromedriver!(No symbol) [0x7ff62ca44711]
+	chromedriver!(No symbol) [0x7ff62ca4657f]
+	chromedriver!(No symbol) [0x7ff62ca44cb3]
+	chromedriver!(No symbol) [0x7ff62ca4447b]
+	chromedriver!(No symbol) [0x7ff62ca44131]
+	chromedriver!(No symbol) [0x7ff62ca41e01]
+	chromedriver!(No symbol) [0x7ff62ca42562]
+	chromedriver!(No symbol) [0x7ff62ca5bbe6]
+	chromedriver!(No symbol) [0x7ff62cb001c4]
+	chromedriver!(No symbol) [0x7ff62cada3ca]
+	chromedriver!(No symbol) [0x7ff62caff39b]
+	chromedriver!(No symbol) [0x7ff62caa401c]
+	chromedriver!(No symbol) [0x7ff62caa4f43]
+	chromedriver!GetHandleVerifier [0x7ff62d4f7591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff62d4f1902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff62d517115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff62cf31dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff62cf3a82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff62cf1d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff62cf1d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff62cf01447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa69b1259d+1d]
+	ntdll!RtlUserThreadStart [0x7ffa6b6aaf78+28]
+
+2026-06-28 15:00:53,813 - INFO - Database closed!
+2026-06-28 15:00:53,813 - INFO - Browser and database closed!
+2026-06-28 15:09:25,820 - INFO - ====== WebDriver manager ======
+2026-06-28 15:09:29,718 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-28 15:09:33,372 - INFO - There is no [win64] chromedriver "149.0.7827.155" for browser google-chrome "149.0.7827" in cache
+2026-06-28 15:09:34,793 - INFO - There is no [win64] chromedriver "149.0.7827.155" for browser google-chrome "149.0.7827" in cache
+2026-06-28 15:09:34,794 - INFO - Get LATEST chromedriver version for google-chrome
+2026-06-28 15:09:40,784 - INFO - WebDriver version 149.0.7827.155 selected
+2026-06-28 15:09:40,797 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win64/chromedriver-win64.zip
+2026-06-28 15:09:40,797 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win64/chromedriver-win64.zip
+2026-06-28 15:09:42,683 - INFO - Driver downloading response is 200
+2026-06-28 15:18:53,986 - INFO - Driver has been saved in cache [C:\Users\dell\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-06-28 15:18:55,654 - INFO - Database connected!
+2026-06-28 15:18:55,655 - INFO - Scraping page 1...
+2026-06-28 15:19:10,030 - INFO - Page 1 opened!
+2026-06-28 15:19:11,609 - INFO - Page 1 done — 20 books scraped!
+2026-06-28 15:19:11,629 - INFO - Scraping page 2...
+2026-06-28 15:19:14,905 - INFO - Page 2 opened!
+2026-06-28 15:19:16,117 - INFO - Page 2 done — 20 books scraped!
+2026-06-28 15:19:16,134 - INFO - Scraping page 3...
+2026-06-28 15:19:23,549 - INFO - Page 3 opened!
+2026-06-28 15:19:24,668 - INFO - Page 3 done — 20 books scraped!
+2026-06-28 15:19:24,684 - INFO - Scraping page 4...
+2026-06-28 15:19:31,992 - INFO - Page 4 opened!
+2026-06-28 15:19:33,071 - INFO - Page 4 done — 20 books scraped!
+2026-06-28 15:19:33,087 - INFO - Scraping page 5...
+2026-06-28 15:19:36,910 - INFO - Page 5 opened!
+2026-06-28 15:19:38,727 - INFO - Page 5 done — 20 books scraped!
+2026-06-28 15:19:38,750 - INFO - Scraping page 6...
+2026-06-28 15:19:45,497 - INFO - Page 6 opened!
+2026-06-28 15:19:47,425 - INFO - Page 6 done — 20 books scraped!
+2026-06-28 15:19:47,452 - INFO - Scraping page 7...
+2026-06-28 15:19:58,055 - INFO - Page 7 opened!
+2026-06-28 15:19:59,372 - INFO - Page 7 done — 20 books scraped!
+2026-06-28 15:19:59,389 - INFO - Scraping page 8...
+2026-06-28 15:20:08,113 - INFO - Page 8 opened!
+2026-06-28 15:20:09,257 - INFO - Page 8 done — 20 books scraped!
+2026-06-28 15:20:09,286 - INFO - Scraping page 9...
+2026-06-28 15:20:18,948 - INFO - Page 9 opened!
+2026-06-28 15:20:20,763 - INFO - Page 9 done — 20 books scraped!
+2026-06-28 15:20:20,799 - INFO - Scraping page 10...
+2026-06-28 15:20:28,969 - INFO - Page 10 opened!
+2026-06-28 15:20:30,241 - INFO - Page 10 done — 20 books scraped!
+2026-06-28 15:20:30,255 - INFO - Scraping page 11...
+2026-06-28 15:20:37,592 - INFO - Page 11 opened!
+2026-06-28 15:20:39,216 - INFO - Page 11 done — 20 books scraped!
+2026-06-28 15:20:39,233 - INFO - Scraping page 12...
+2026-06-28 15:20:51,167 - INFO - Page 12 opened!
+2026-06-28 15:20:52,721 - INFO - Page 12 done — 20 books scraped!
+2026-06-28 15:20:52,752 - INFO - Scraping page 13...
+2026-06-28 15:21:04,285 - INFO - Page 13 opened!
+2026-06-28 15:21:05,928 - INFO - Page 13 done — 20 books scraped!
+2026-06-28 15:21:05,945 - INFO - Scraping page 14...
+2026-06-28 15:21:16,527 - INFO - Page 14 opened!
+2026-06-28 15:21:17,492 - INFO - Page 14 done — 20 books scraped!
+2026-06-28 15:21:17,508 - INFO - Scraping page 15...
+2026-06-28 15:21:28,464 - INFO - Page 15 opened!
+2026-06-28 15:21:30,335 - INFO - Page 15 done — 20 books scraped!
+2026-06-28 15:21:30,364 - INFO - Scraping page 16...
+2026-06-28 15:21:36,501 - INFO - Page 16 opened!
+2026-06-28 15:21:37,913 - INFO - Page 16 done — 20 books scraped!
+2026-06-28 15:21:37,931 - INFO - Scraping page 17...
+2026-06-28 15:21:41,194 - INFO - Page 17 opened!
+2026-06-28 15:21:42,640 - INFO - Page 17 done — 20 books scraped!
+2026-06-28 15:21:42,655 - INFO - Scraping page 18...
+2026-06-28 15:21:45,759 - INFO - Page 18 opened!
+2026-06-28 15:21:47,089 - INFO - Page 18 done — 20 books scraped!
+2026-06-28 15:21:47,106 - INFO - Scraping page 19...
+2026-06-28 15:21:49,871 - INFO - Page 19 opened!
+2026-06-28 15:21:50,777 - INFO - Page 19 done — 20 books scraped!
+2026-06-28 15:21:50,791 - INFO - Scraping page 20...
+2026-06-28 15:21:58,167 - INFO - Page 20 opened!
+2026-06-28 15:21:59,758 - INFO - Page 20 done — 20 books scraped!
+2026-06-28 15:21:59,786 - INFO - Scraping page 21...
+2026-06-28 15:22:04,466 - INFO - Page 21 opened!
+2026-06-28 15:22:06,377 - INFO - Page 21 done — 20 books scraped!
+2026-06-28 15:22:06,407 - INFO - Scraping page 22...
+2026-06-28 15:22:09,675 - INFO - Page 22 opened!
+2026-06-28 15:22:11,824 - INFO - Page 22 done — 20 books scraped!
+2026-06-28 15:22:11,849 - INFO - Scraping page 23...
+2026-06-28 15:22:14,740 - INFO - Page 23 opened!
+2026-06-28 15:22:16,314 - INFO - Page 23 done — 20 books scraped!
+2026-06-28 15:22:16,339 - INFO - Scraping page 24...
+2026-06-28 15:22:20,538 - INFO - Page 24 opened!
+2026-06-28 15:22:21,614 - INFO - Page 24 done — 20 books scraped!
+2026-06-28 15:22:21,636 - INFO - Scraping page 25...
+2026-06-28 15:22:24,432 - INFO - Page 25 opened!
+2026-06-28 15:22:25,968 - INFO - Page 25 done — 20 books scraped!
+2026-06-28 15:22:25,994 - INFO - Scraping page 26...
+2026-06-28 15:22:31,696 - INFO - Page 26 opened!
+2026-06-28 15:22:33,074 - INFO - Page 26 done — 20 books scraped!
+2026-06-28 15:22:33,092 - INFO - Scraping page 27...
+2026-06-28 15:22:36,646 - INFO - Page 27 opened!
+2026-06-28 15:22:38,700 - INFO - Page 27 done — 20 books scraped!
+2026-06-28 15:22:38,713 - INFO - Scraping page 28...
+2026-06-28 15:22:41,472 - INFO - Page 28 opened!
+2026-06-28 15:22:43,259 - INFO - Page 28 done — 20 books scraped!
+2026-06-28 15:22:43,282 - INFO - Scraping page 29...
+2026-06-28 15:22:45,768 - INFO - Page 29 opened!
+2026-06-28 15:22:47,259 - INFO - Page 29 done — 20 books scraped!
+2026-06-28 15:22:47,282 - INFO - Scraping page 30...
+2026-06-28 15:22:52,790 - INFO - Page 30 opened!
+2026-06-28 15:22:57,153 - INFO - Page 30 done — 20 books scraped!
+2026-06-28 15:22:57,186 - INFO - Scraping page 31...
+2026-06-28 15:23:02,926 - INFO - Page 31 opened!
+2026-06-28 15:23:05,495 - INFO - Page 31 done — 20 books scraped!
+2026-06-28 15:23:05,517 - INFO - Scraping page 32...
+2026-06-28 15:23:13,957 - INFO - Page 32 opened!
+2026-06-28 15:23:15,508 - INFO - Page 32 done — 20 books scraped!
+2026-06-28 15:23:15,526 - INFO - Scraping page 33...
+2026-06-28 15:23:17,784 - INFO - Page 33 opened!
+2026-06-28 15:23:18,736 - INFO - Page 33 done — 20 books scraped!
+2026-06-28 15:23:18,750 - INFO - Scraping page 34...
+2026-06-28 15:23:22,755 - INFO - Page 34 opened!
+2026-06-28 15:23:24,664 - INFO - Page 34 done — 20 books scraped!
+2026-06-28 15:23:24,690 - INFO - Scraping page 35...
+2026-06-28 15:23:30,175 - INFO - Page 35 opened!
+2026-06-28 15:23:32,100 - INFO - Page 35 done — 20 books scraped!
+2026-06-28 15:23:32,125 - INFO - Scraping page 36...
+2026-06-28 15:23:36,631 - INFO - Page 36 opened!
+2026-06-28 15:23:38,654 - INFO - Page 36 done — 20 books scraped!
+2026-06-28 15:23:38,684 - INFO - Scraping page 37...
+2026-06-28 15:23:42,171 - INFO - Page 37 opened!
+2026-06-28 15:23:44,088 - INFO - Page 37 done — 20 books scraped!
+2026-06-28 15:23:44,119 - INFO - Scraping page 38...
+2026-06-28 15:23:46,356 - INFO - Page 38 opened!
+2026-06-28 15:23:48,280 - INFO - Page 38 done — 20 books scraped!
+2026-06-28 15:23:48,307 - INFO - Scraping page 39...
+2026-06-28 15:23:52,793 - INFO - Page 39 opened!
+2026-06-28 15:23:54,606 - INFO - Page 39 done — 20 books scraped!
+2026-06-28 15:23:54,618 - INFO - Scraping page 40...
+2026-06-28 15:24:04,439 - INFO - Page 40 opened!
+2026-06-28 15:24:05,598 - INFO - Page 40 done — 20 books scraped!
+2026-06-28 15:24:05,631 - INFO - Scraping page 41...
+2026-06-28 15:24:11,195 - INFO - Page 41 opened!
+2026-06-28 15:24:13,199 - INFO - Page 41 done — 20 books scraped!
+2026-06-28 15:24:13,226 - INFO - Scraping page 42...
+2026-06-28 15:24:18,885 - INFO - Page 42 opened!
+2026-06-28 15:24:20,942 - INFO - Page 42 done — 20 books scraped!
+2026-06-28 15:24:20,958 - INFO - Scraping page 43...
+2026-06-28 15:24:26,333 - INFO - Page 43 opened!
+2026-06-28 15:24:27,508 - INFO - Page 43 done — 20 books scraped!
+2026-06-28 15:24:27,525 - INFO - Scraping page 44...
+2026-06-28 15:24:45,168 - INFO - Page 44 opened!
+2026-06-28 15:24:47,255 - INFO - Page 44 done — 20 books scraped!
+2026-06-28 15:24:47,284 - INFO - Scraping page 45...
+2026-06-28 15:24:54,158 - INFO - Page 45 opened!
+2026-06-28 15:24:56,295 - INFO - Page 45 done — 20 books scraped!
+2026-06-28 15:24:56,325 - INFO - Scraping page 46...
+2026-06-28 15:25:02,139 - INFO - Page 46 opened!
+2026-06-28 15:25:03,475 - INFO - Page 46 done — 20 books scraped!
+2026-06-28 15:25:03,511 - INFO - Scraping page 47...
+2026-06-28 15:25:09,898 - INFO - Page 47 opened!
+2026-06-28 15:25:11,153 - INFO - Page 47 done — 20 books scraped!
+2026-06-28 15:25:11,169 - INFO - Scraping page 48...
+2026-06-28 15:25:28,156 - INFO - Page 48 opened!
+2026-06-28 15:25:29,860 - INFO - Page 48 done — 20 books scraped!
+2026-06-28 15:25:29,896 - INFO - Scraping page 49...
+2026-06-28 15:25:39,808 - INFO - Page 49 opened!
+2026-06-28 15:25:41,464 - INFO - Page 49 done — 20 books scraped!
+2026-06-28 15:25:41,495 - INFO - Scraping page 50...
+2026-06-28 15:25:46,630 - INFO - Page 50 opened!
+2026-06-28 15:25:47,866 - INFO - Page 50 done — 20 books scraped!
+2026-06-28 15:25:47,891 - INFO - Last page reached!
+2026-06-28 15:25:47,896 - INFO - Generating Excel report...
+2026-06-28 15:25:48,323 - INFO - Professional Excel report saved: output/books_report.xlsx
+2026-06-28 15:25:50,776 - INFO - Database closed!
+2026-06-28 15:25:50,777 - INFO - Browser and database closed!
