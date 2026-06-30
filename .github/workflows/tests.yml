@@ -25,4 +25,5 @@ jobs:
       
       - name: Run tests
         run: |
+          $env:PYTHONPATH = "."
           pytest tests/ -v
